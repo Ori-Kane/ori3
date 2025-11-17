@@ -1,0 +1,20 @@
+﻿alert("heli");
+document.write("heli");
+var num = parseInt(prompt("enter a num"));
+var num1 = parseInt(prompt("enter a num"));
+var age = parseInt(prompt("enter your age"))
+var name = prompt("enter your name");
+document.write("</br>");
+document.write("hello" + " " + name);
+document.write("</br>");
+document.write(age);
+document.write("</br>");
+document.write("next year you will be" + " " + (age + 1));
+document.write("</br>");
+document.write((num + num1));
+document.write("</br>");
+document.write((num - num1));
+document.write("</br>");
+document.write((num * num1));
+document.write("</br>");
+document.write((num / num1));
