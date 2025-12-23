@@ -5,10 +5,120 @@
     <title></title>
 </head>
 <body>
-    <input type="text" size="20" id="num"/>
-    <span>הקלד מספר שלם:</span>
-    <input type="button" value="שלח" onclick="checkAnswer();" />
-
+    <table>
+        <tr>
+            <td>
+                <input type="text" size="10" id="num" disabled />
+            </td>
+            <td>
+                <span>
+                    +
+                </span>
+            </td>
+            <td>
+                <input type="text" size="10" id="num1" disabled />
+            </td>
+            <td>
+                <span>
+                    =
+                </span>
+            </td>
+            <td>
+                <input type="text" size="10" id="num2" />
+            </td>
+            <td>
+                <span id="msgPlus"> </span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" size="10" id="num00" disabled />
+            </td>
+            <td>
+                -
+            </td>
+            <td>
+                <input type="text" size="10" id="num11" disabled />
+            </td>
+            <td>
+                =
+            </td>
+            <td>
+                <input type="text" size="10" id="num22" />
+            </td>
+            <td>
+                <span id="msgPlus1"> </span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" size="10" id="num000" disabled />
+            </td>
+            <td>
+                *
+            </td>
+            <td>
+                <input type="text" size="10" id="num111" disabled />
+            </td>
+            <td>
+                =
+            </td>
+            <td>
+                <input type="text" size="10" id="num222" />
+            </td>
+            <td>
+                <span id="msgPlus2"> </span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" size="10" id="num0000" disabled />
+            </td>
+            <td>
+                /
+            </td>
+            <td>
+                <input type="text" size="10" id="num1111" disabled />
+            </td>
+            <td>
+                =
+            </td>
+            <td>
+                <input type="text" size="10" id="num2222" />
+            </td>
+            <td>
+                <span id="msgPlus3"> </span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" size="10" id="num00000" disabled />
+            </td>
+            <td>
+                %
+            </td>
+            <td>
+                <input type="text" size="10" id="num11111" disabled />
+            </td>
+            <td>
+                =
+            </td>
+            <td>
+                <input type="text" size="10" id="num22222" />
+            </td>
+            <td>
+                <span id="msgPlus4"> </span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" value="בדוק" onclick="checkAnswer();" />
+            </td>
+            <td>
+                <input type="button" value="להחליף מספרים" onclick="changedrill();" />
+            </td>
+        </tr>
+    </table>
     <script src="JavaScript.js"></script>
 </body>
 </html>

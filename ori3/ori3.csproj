@@ -69,11 +69,16 @@
   <ItemGroup>
     <Content Include="first.css" />
     <Content Include="first.html" />
+    <Content Include="Htmldino.html" />
     <Content Include="img\3904505679-2802189789.jpg" />
     <Content Include="img\African-forest-elephant-1-1432266165.jpg" />
     <Content Include="img\animal-4534480_640-1068207939.jpg" />
+    <Content Include="img\1.jpg" />
     <Content Include="img\identify-snakes.jpg" />
     <Content Include="img\lion-828037223.jpg" />
+    <Content Include="img\4.jpg" />
+    <Content Include="img\5.jpg" />
+    <Content Include="Javadino.js" />
     <Content Include="JavaScript.js" />
     <Content Include="second.html" />
     <Content Include="Web.config" />
@@ -82,6 +87,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="img\2.jpg" />
+    <Content Include="img\3.jpg" />
+    <Content Include="1.html" />
+    <Content Include="2.html" />
+    <Content Include="3.html" />
+    <Content Include="4.html" />
+    <Content Include="5.html" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
