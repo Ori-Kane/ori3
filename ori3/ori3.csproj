@@ -67,9 +67,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Ex22.html" />
+    <Content Include="Ex22.js" />
     <Content Include="first.css" />
     <Content Include="first.html" />
     <Content Include="Htmldino.html" />
+    <Content Include="HtmlPagefirst.html" />
     <Content Include="img\3904505679-2802189789.jpg" />
     <Content Include="img\African-forest-elephant-1-1432266165.jpg" />
     <Content Include="img\animal-4534480_640-1068207939.jpg" />
@@ -80,6 +83,7 @@
     <Content Include="img\5.jpg" />
     <Content Include="Javadino.js" />
     <Content Include="JavaScript.js" />
+    <Content Include="JavaScriptfirst.js" />
     <Content Include="second.html" />
     <Content Include="Web.config" />
   </ItemGroup>
